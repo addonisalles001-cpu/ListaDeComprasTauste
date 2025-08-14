@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeComprasTauste", "ListaDeComprasTauste\ListaDeComprasTauste.csproj", "{65923DEA-2E9E-40F8-A1CB-67ACA5EECEF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65923DEA-2E9E-40F8-A1CB-67ACA5EECEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65923DEA-2E9E-40F8-A1CB-67ACA5EECEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65923DEA-2E9E-40F8-A1CB-67ACA5EECEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65923DEA-2E9E-40F8-A1CB-67ACA5EECEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EAFADF7-5092-4AD6-833F-974092F53D8C}
+	EndGlobalSection
+EndGlobal
