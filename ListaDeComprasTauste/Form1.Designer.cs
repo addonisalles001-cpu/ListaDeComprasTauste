@@ -72,10 +72,13 @@
             // 
             // txbProduto
             // 
+            this.txbProduto.BackColor = System.Drawing.SystemColors.Window;
+            this.txbProduto.ForeColor = System.Drawing.Color.Black;
             this.txbProduto.Location = new System.Drawing.Point(243, 182);
             this.txbProduto.Name = "txbProduto";
             this.txbProduto.Size = new System.Drawing.Size(190, 23);
             this.txbProduto.TabIndex = 3;
+            this.txbProduto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbProduto_KeyDown);
             // 
             // btnAdicionar
             // 
@@ -85,6 +88,7 @@
             this.btnAdicionar.TabIndex = 4;
             this.btnAdicionar.Text = "Adicionar";
             this.btnAdicionar.UseVisualStyleBackColor = true;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // libCompras
             // 
@@ -103,6 +107,7 @@
             this.btnExcluir.TabIndex = 6;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnLimpar
             // 
@@ -112,6 +117,7 @@
             this.btnLimpar.TabIndex = 7;
             this.btnLimpar.Text = "Limpar Lista";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // lbCompras
             // 
@@ -130,7 +136,7 @@
             this.Font = new System.Drawing.Font("Schadow BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "lbCompras";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
