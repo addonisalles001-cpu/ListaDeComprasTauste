@@ -78,6 +78,7 @@
             this.txbProduto.Name = "txbProduto";
             this.txbProduto.Size = new System.Drawing.Size(190, 23);
             this.txbProduto.TabIndex = 3;
+            this.txbProduto.TextChanged += new System.EventHandler(this.ad);
             this.txbProduto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbProduto_KeyDown);
             // 
             // btnAdicionar

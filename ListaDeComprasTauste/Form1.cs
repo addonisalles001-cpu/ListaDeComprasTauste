@@ -103,5 +103,10 @@ namespace ListaDeComprasTauste
                 btnAdicionar.PerformClick();
             }
         }
+
+        private void ad(object sender, EventArgs e)
+        {
+
+        }
     }
 }
